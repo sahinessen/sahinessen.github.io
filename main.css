@@ -1,17 +1,17 @@
 #textBody {
     text-align: center;
     position: absolute;
-    top: 45%;
+    top: 41%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:goldenrod
 }
 
 #backgroundBody {
+    background: url(backs.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
-    background: url(backs.png);
     background-size: cover;
     background-color:#464646;
 }
@@ -24,7 +24,6 @@
     text-decoration: none;
     margin: 2px 2px;
     border-radius: 50%;
-
     background: #120e07;
     color: #ffce54;
 }
@@ -32,3 +31,46 @@
 .fa:hover {
     opacity: 0.7;
 }
+
+.bannerback {
+    background: color #000840;;
+    margin: 0 0 15px;
+    border: 0;
+    border-bottom: 0 solid #222;
+    background: linear-gradient(#10173d 0,#101946 24.7%,#131c4d 38%,#162154 45.3%,#19245c 49.7%,#182963 52.7%,#1a2e6b 56%,#213070 58%,#243777 61%,#283a7e 63%,#2e3f81 64.7%,#314588 66.7%,#364a8d 68.3%,#3b4f93 69.7%,#3f5499 71%,#45559f 72%,#4959a5 73%,#4e5cab 74%,#5061b3 75%,#5565bb 76%,#5869c2 77%,#5a6ec9 78%,#5e71d1 78.7%,#6376db 79.7%,#677be3 80.7%,#6d81ea 81.7%,#7188f1 82.7%,#768cf6 83.3%,#7e92fe 84.3%,#8298ff 85.3%,#889dff 86%,#8ea1ff 86.7%,#95a8ff 87.7%,#9fadff 88.7%,#a7b3ff 89.7%,#b3b7ff 90.7%,#bdbbff 91.7%,#c1bfff 92.7%,#c6bdfc 93.3%,#cfbdf3 94%,#d4b9e7 94.7%,#d9b7dc 95%,#dcb4ce 95.3%,#e1b1c3 95.7%,#e5afb7 96%,#e9afa9 96.3%,#edac9c 96.7%,#efa78c 97%,#f09c77 97.3%,#f19168 97.7%,#f1885d 98%,#ef8053 98.3%,#f17146 99%,#f1673f 99.3%,#e75539 100%);
+}
+
+#bannerfull, .bannerback {
+    left: 0;
+    width: 100%;
+    height: 75px;
+}
+
+.banner, .bannerback {
+    position: relative;
+    top: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+
+.menu a {
+    display: inline-block;
+    color: gold;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
